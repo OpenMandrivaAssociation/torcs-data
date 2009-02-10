@@ -2,7 +2,7 @@
 %define	opname	TORCS
 %define	name	%{pname}-data
 %define	oname	%{opname}-data
-%define	version	1.3.0
+%define	version	1.3.1
 %define	release	1
 %define	Summary	Data files for %{pname}
 
@@ -17,12 +17,12 @@ Source1:	%{opname}-%{version}-data-tracks-road.tar.bz2
 Source2:	%{opname}-%{version}-data-tracks-oval.tar.bz2
 Source3:	%{opname}-%{version}-data-tracks-dirt.tar.bz2
 Source4:	%{opname}-%{version}-data-cars-extra.tar.bz2
-Source5:	%{opname}-%{version}-data-cars-nascar.tar.bz2
+Source5:	%{opname}-1.3.0-data-cars-nascar.tar.bz2
 Source6:	%{opname}-%{version}-data-cars-Patwo-Design.tar.bz2
 Source7:	%{opname}-%{version}-data-cars-kcendra-gt.tar.bz2
 Source8:	%{opname}-%{version}-data-cars-kcendra-roadsters.tar.bz2
 Source9:	%{opname}-%{version}-data-cars-kcendra-sport.tar.bz2
-Source10:	%{opname}-%{version}-data-cars-VM.tar.bz2
+Source10:	%{opname}-1.3.0-data-cars-VM.tar.bz2
 Url:		http://torcs.org/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
@@ -66,32 +66,88 @@ Extra cars for %{opname}
 %files
 %defattr(-,root,root,755)
 %dir %{_gamesdatadir}/%{pname}/cars
-%{_gamesdatadir}/%{pname}/cars/360-modena/
-%{_gamesdatadir}/%{pname}/cars/car1-trb1/
-%{_gamesdatadir}/%{pname}/categories
-%{_gamesdatadir}/%{pname}/data
-%{_gamesdatadir}/%{pname}/menu
-%{_gamesdatadir}/%{pname}/tracks
-
-%files cars-extra
-%defattr(-,root,root,755)
-%{_gamesdatadir}/%{pname}/cars/155-DTM
-%{_gamesdatadir}/%{pname}/cars/acura-nsx-sz
-%{_gamesdatadir}/%{pname}/cars/baja-bug
-%{_gamesdatadir}/%{pname}/cars/buggy
-%{_gamesdatadir}/%{pname}/cars/cg-nascar-rwd
-%{_gamesdatadir}/%{pname}/cars/clkdtm
-%{_gamesdatadir}/%{pname}/cars/gt40
-%{_gamesdatadir}/%{pname}/cars/lotus-gt1
-%{_gamesdatadir}/%{pname}/cars/mclaren-f1
-%{_gamesdatadir}/%{pname}/cars/porsche-gt1
-%{_gamesdatadir}/%{pname}/cars/porsche-gt3rs
-%{_gamesdatadir}/%{pname}/cars/viper-gts-r
-%{_gamesdatadir}/%{pname}/cars/xj-220
-%{_gamesdatadir}/%{pname}/cars/kc-*
-%{_gamesdatadir}/%{pname}/cars/p406
-%{_gamesdatadir}/%{pname}/cars/pw-*
-%{_gamesdatadir}/%{pname}/cars/vm-x*
+%exclude %{_gamesdatadir}/%{pname}/categories/Nascar.xml
+%{_gamesdatadir}/%{pname}/categories/*
+%{_gamesdatadir}/%{pname}/data/*
+%{_gamesdatadir}/%{pname}/menu/*
+%{_gamesdatadir}/%{pname}/tracks/road/aalborg/*
+%{_gamesdatadir}/%{pname}/tracks/road/alpine-1/*
+%{_gamesdatadir}/%{pname}/tracks/road/alpine-2/*
+%{_gamesdatadir}/%{pname}/tracks/road/eroad/*
+%{_gamesdatadir}/%{pname}/tracks/road/e-track-1/*
+%{_gamesdatadir}/%{pname}/tracks/road/e-track-2/*
+%{_gamesdatadir}/%{pname}/tracks/road/e-track-3/*
+%{_gamesdatadir}/%{pname}/tracks/road/e-track-4/*
+#%{_gamesdatadir}/%{pname}/tracks/road/e-track-5/*
+%{_gamesdatadir}/%{pname}/tracks/road/e-track-6/*
+%{_gamesdatadir}/%{pname}/tracks/road/forza/*
+%{_gamesdatadir}/%{pname}/tracks/road/g-track-1/*
+%{_gamesdatadir}/%{pname}/tracks/road/g-track-2/*
+%{_gamesdatadir}/%{pname}/tracks/road/g-track-3/*
+%{_gamesdatadir}/%{pname}/tracks/road/ole-road-1/*
+%{_gamesdatadir}/%{pname}/tracks/road/ruudskogen/*
+%{_gamesdatadir}/%{pname}/tracks/road/spring/*
+%{_gamesdatadir}/%{pname}/tracks/road/street-1/*
+%{_gamesdatadir}/%{pname}/tracks/road/wheel-1/*
+%{_gamesdatadir}/%{pname}/tracks/road/wheel-2/*
+%{_gamesdatadir}/%{pname}/tracks/oval/*
+%{_gamesdatadir}/%{pname}/tracks/dirt/*
+%{_gamesdatadir}/%{pname}/cars/car1-trb1/*
+%{_gamesdatadir}/%{pname}/cars/car1-trb3/*
+%{_gamesdatadir}/%{pname}/cars/car2-trb1/*
+%{_gamesdatadir}/%{pname}/cars/car3-trb1/*
+%{_gamesdatadir}/%{pname}/cars/car4-trb1/*
+%{_gamesdatadir}/%{pname}/cars/car5-trb1/*
+%{_gamesdatadir}/%{pname}/cars/car6-trb1/*
+%{_gamesdatadir}/%{pname}/cars/car7-trb1/*
+%{_gamesdatadir}/%{pname}/cars/p406/*
+%{_gamesdatadir}/%{pname}/cars/sc-f1/*
 %{_gamesdatadir}/%{pname}/cars/sc-f1
 
 
+%files cars-extra
+%defattr(-, root, root)
+%{_gamesdatadir}/torcs/cars/155-DTM/*
+#%{_gamesdatadir}/torcs/cars/360-modena/*
+%{_gamesdatadir}/torcs/cars/acura-nsx-sz/*
+%{_gamesdatadir}/torcs/cars/baja-bug/*
+%{_gamesdatadir}/torcs/cars/buggy/*
+#%{_gamesdatadir}/torcs/cars/car1-trb1/*
+#%{_gamesdatadir}/torcs/cars/clkdtm/*
+#%{_gamesdatadir}/torcs/cars/gt40/*
+#%{_gamesdatadir}/torcs/cars/lotus-gt1/*
+#%{_gamesdatadir}/torcs/cars/mclaren-f1/*
+#%{_gamesdatadir}/torcs/cars/p406/*
+#%{_gamesdatadir}/torcs/cars/porsche-gt1/*
+#%{_gamesdatadir}/torcs/cars/porsche-gt3rs/*
+#%{_gamesdatadir}/torcs/cars/sc-f1/*
+#%{_gamesdatadir}/torcs/cars/viper-gts-r/*
+#%{_gamesdatadir}/torcs/cars/xj-220/*
+%{_gamesdatadir}/torcs/cars/cg-nascar-rwd
+%{_gamesdatadir}/torcs/categories/Nascar.xml
+%{_gamesdatadir}/torcs/cars/pw-206wrc/*
+%{_gamesdatadir}/torcs/cars/pw-306wrc/*
+%{_gamesdatadir}/torcs/cars/pw-corollawrc/*
+%{_gamesdatadir}/torcs/cars/pw-evoviwrc/*
+#%{_gamesdatadir}/torcs/cars/pw-evovwrc/*
+%{_gamesdatadir}/torcs/cars/pw-focuswrc/*
+%{_gamesdatadir}/torcs/cars/pw-imprezawrc/*
+%{_gamesdatadir}/torcs/cars/kc-2000gt/*
+%{_gamesdatadir}/torcs/cars/kc-5300gt/*
+%{_gamesdatadir}/torcs/cars/kc-corvette-ttop/*
+%{_gamesdatadir}/torcs/cars/kc-daytona/*
+%{_gamesdatadir}/torcs/cars/kc-db4z/*
+%{_gamesdatadir}/torcs/cars/kc-dbs/*
+%{_gamesdatadir}/torcs/cars/kc-dino/*
+%{_gamesdatadir}/torcs/cars/kc-ghibli/*
+%{_gamesdatadir}/torcs/cars/kc-grifo/*
+%{_gamesdatadir}/torcs/cars/kc-bigh/*
+%{_gamesdatadir}/torcs/cars/kc-a110/*
+%{_gamesdatadir}/torcs/cars/kc-alfatz2/*
+%{_gamesdatadir}/torcs/cars/kc-coda/*
+%{_gamesdatadir}/torcs/cars/kc-conrero/*
+%{_gamesdatadir}/torcs/cars/kc-gt40/*
+%{_gamesdatadir}/torcs/cars/kc-gto/*
+%{_gamesdatadir}/torcs/cars/kc-p4/*
+%{_gamesdatadir}/torcs/cars/vm-x2/*
+%{_gamesdatadir}/torcs/cars/vm-x4/*

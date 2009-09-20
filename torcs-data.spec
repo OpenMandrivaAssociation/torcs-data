@@ -3,7 +3,7 @@
 %define	name	%{pname}-data
 %define	oname	%{opname}-data
 %define	version	1.3.1
-%define	release	1
+%define	release	2
 %define	Summary	Data files for %{pname}
 
 Name:		%{name}

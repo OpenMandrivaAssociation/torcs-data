@@ -2,8 +2,8 @@
 %define	opname	TORCS
 %define	name	%{pname}-data
 %define	oname	%{opname}-data
-%define	version	1.3.1
-%define	release	2
+%define	version	1.3.2
+%define	release	1
 %define	Summary	Data files for %{pname}
 
 Name:		%{name}
@@ -12,7 +12,7 @@ Release:	%mkrel %{release}
 Summary:	%{Summary}
 License:	GPL
 Group:		Games/Arcade
-Source0:	%{opname}-%{version}-data.tar.bz2
+Source0:	%{opname}-1.3.1-data.tar.bz2
 Source1:	%{opname}-%{version}-data-tracks-road.tar.bz2
 Source2:	%{opname}-%{version}-data-tracks-oval.tar.bz2
 Source3:	%{opname}-%{version}-data-tracks-dirt.tar.bz2

@@ -102,7 +102,7 @@ Extra cars for %{opname}
 %{_gamesdatadir}/%{pname}/cars/car7-trb1/*
 %{_gamesdatadir}/%{pname}/cars/p406/*
 %{_gamesdatadir}/%{pname}/cars/sc-f1/*
-%{_gamesdatadir}/%{pname}/cars/sc-f1
+
 
 
 %files cars-extra

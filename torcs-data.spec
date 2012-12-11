@@ -156,3 +156,41 @@ Extra cars for %{opname}
 %{_gamesdatadir}/torcs/cars/kc-p4/*
 %{_gamesdatadir}/torcs/cars/vm-x2/*
 %{_gamesdatadir}/torcs/cars/vm-x4/*
+
+
+%changelog
+* Sun Feb 19 2012 Zombie Ryushu <ryushu@mandriva.org> 1.3.3-1
++ Revision: 777421
+- install extra roads
+- Remove missing car sc-f1
+- Upgrade to 1.3.3
+
+* Fri Feb 03 2012 Zombie Ryushu <ryushu@mandriva.org> 1.3.2-1
++ Revision: 771002
+- Fix install stage
+- Upgrade to 1.3.2
+- Upgrade to 1.3.2
+
+* Sun Sep 20 2009 Thierry Vignaud <tv@mandriva.org> 1.3.1-2mdv2010.0
++ Revision: 445518
+- rebuild
+
+* Tue Feb 10 2009 Zombie Ryushu <ryushu@mandriva.org> 1.3.1-1mdv2009.1
++ Revision: 339175
+- Upgrade to 1.3.1
+
+* Fri Dec 21 2007 Olivier Blin <blino@mandriva.org> 1.3.0-1mdv2008.1
++ Revision: 136550
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sun Nov 12 2006 Emmanuel Andry <eandry@mandriva.org> 1.3.0-1mdv2007.0
++ Revision: 83449
+- New version 1.3.0
+
+  + Lenny Cartier <lenny@mandriva.com>
+    - Import torcs-data
+

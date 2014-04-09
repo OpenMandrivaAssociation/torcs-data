@@ -104,6 +104,7 @@ Extra cars for %{opname}
 # %{_gamesdatadir}/%{pname}/cars/sc-f1/*
 %{_gamesdatadir}/%{pname}/cars/car1-ow1/*
 %{_gamesdatadir}/%{pname}/cars/car1-stock1/*
+%{_gamesdatadir}/%{pname}/cars/car1-stock2/*
 %{_gamesdatadir}/%{pname}/cars/car8-trb1/*
 %{_gamesdatadir}/%{pname}/tracks/road/brondehach/*
 %{_gamesdatadir}/%{pname}/tracks/road/corkscrew/*

@@ -2,26 +2,26 @@
 %define	opname	TORCS
 %define	name	%{pname}-data
 %define	oname	%{opname}-data
-%define	version	1.3.3
+%define	version	1.3.5
 %define	release	1
 %define	Summary	Data files for %{pname}
 
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel %{release}
+Release:	%{release}
 Summary:	%{Summary}
 License:	GPL
 Group:		Games/Arcade
-Source0:	%{opname}-%{version}-data.tar.bz2
-Source1:	%{opname}-%{version}-data-tracks-road.tar.bz2
-Source2:	%{opname}-%{version}-data-tracks-oval.tar.bz2
-Source3:	%{opname}-%{version}-data-tracks-dirt.tar.bz2
-Source4:	%{opname}-%{version}-data-cars-extra.tar.bz2
+Source0:	%{opname}-%{version}-data.tar.xz
+Source1:	%{opname}-%{version}-data-tracks-road.tar.xz
+Source2:	%{opname}-%{version}-data-tracks-oval.tar.xz
+Source3:	%{opname}-%{version}-data-tracks-dirt.tar.xz
+Source4:	%{opname}-%{version}-data-cars-extra.tar.xz
 Source5:	%{opname}-1.3.0-data-cars-nascar.tar.bz2
-Source6:	%{opname}-%{version}-data-cars-Patwo-Design.tar.bz2
-Source7:	%{opname}-%{version}-data-cars-kcendra-gt.tar.bz2
-Source8:	%{opname}-%{version}-data-cars-kcendra-roadsters.tar.bz2
-Source9:	%{opname}-%{version}-data-cars-kcendra-sport.tar.bz2
+Source6:	%{opname}-%{version}-data-cars-Patwo-Design.tar.xz
+Source7:	%{opname}-%{version}-data-cars-kcendra-gt.tar.xz
+Source8:	%{opname}-%{version}-data-cars-kcendra-roadsters.tar.xz
+Source9:	%{opname}-%{version}-data-cars-kcendra-sport.tar.xz
 Source10:	%{opname}-1.3.0-data-cars-VM.tar.bz2
 Url:		http://torcs.org/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot

@@ -48,17 +48,17 @@ Extra cars for %{opname}
 %install
 %{__rm} -rf $RPM_BUILD_ROOT
 %{__install} -d $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
-%{__tar} -jxf %{SOURCE0} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
-%{__tar} -jxf %{SOURCE1} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
-%{__tar} -jxf %{SOURCE2} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
-%{__tar} -jxf %{SOURCE3} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
-%{__tar} -jxf %{SOURCE4} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
-%{__tar} -jxf %{SOURCE5} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
-%{__tar} -jxf %{SOURCE6} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
-%{__tar} -jxf %{SOURCE7} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
-%{__tar} -jxf %{SOURCE8} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
-%{__tar} -jxf %{SOURCE9} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
-%{__tar} -jxf %{SOURCE10} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
+%{__tar} -xf %{SOURCE0} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
+%{__tar} -xf %{SOURCE1} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
+%{__tar} -xf %{SOURCE2} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
+%{__tar} -xf %{SOURCE3} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
+%{__tar} -xf %{SOURCE4} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
+%{__tar} -xf %{SOURCE5} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
+%{__tar} -xf %{SOURCE6} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
+%{__tar} -xf %{SOURCE7} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
+%{__tar} -xf %{SOURCE8} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
+%{__tar} -xf %{SOURCE9} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
+%{__tar} -xf %{SOURCE10} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{pname}
 
 %clean
 %{__rm} -rf $RPM_BUILD_ROOT

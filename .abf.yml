@@ -1,12 +1,12 @@
 sources:
   TORCS-1.3.0-data-cars-VM.tar.bz2: 655db39883c82fe3f5a40bc21aa2546bd5b4080f
   TORCS-1.3.0-data-cars-nascar.tar.bz2: 68a50c524e5925ea4ba8bd65f153f27fa5e92322
-  TORCS-1.3.5-data-cars-Patwo-Design.tar.xz: 28a168a9b44ef64b109c4f9ca347ae8ee30bbd1e
-  TORCS-1.3.5-data-cars-extra.tar.xz: 74edbebc808b260871b97a33c5deff9421691870
-  TORCS-1.3.5-data-cars-kcendra-gt.tar.xz: 3ef354404ca7a15c472cda5ae37117c1d12019aa
-  TORCS-1.3.5-data-cars-kcendra-roadsters.tar.xz: 6ecfd08ad5599268352ffe3262bc449b3d5089d5
-  TORCS-1.3.5-data-cars-kcendra-sport.tar.xz: 3052201ce96ebea7deb849ad3e21b35571c4ab74
-  TORCS-1.3.5-data-tracks-dirt.tar.xz: 2968c10cfca1523eb84b02659964bcf0577915c2
-  TORCS-1.3.5-data-tracks-oval.tar.xz: e9b7366adc09ab7eebc2e52f247664991365ca0c
-  TORCS-1.3.5-data-tracks-road.tar.xz: 3654a1c49c799e717b0f80529fd5f3cbcb3a6a2f
-  TORCS-1.3.5-data.tar.xz: 13e31088ee2cafcf9325a071bab58ed33c70d82b
+  TORCS-1.3.6-data-cars-Patwo-Design.tar.xz: 1081820b290de8dc01df6431dcc031a89cbac5c5
+  TORCS-1.3.6-data-cars-extra.tar.xz: b823947138d4d409d017945b27f57d07c56a0e0b
+  TORCS-1.3.6-data-cars-kcendra-gt.tar.xz: 82c7229dac3b62969a3f6d8558ee3ea337e1d4eb
+  TORCS-1.3.6-data-cars-kcendra-roadsters.tar.xz: 6de7a3c0bf6c451792b18ded41bd4152d7d8ae1a
+  TORCS-1.3.6-data-cars-kcendra-sport.tar.xz: 22c46ac44cb90016acf3f81886e7ad38cefb1c6e
+  TORCS-1.3.6-data-tracks-dirt.tar.xz: f139a8416b51f7092803577044d14157075d3833
+  TORCS-1.3.6-data-tracks-oval.tar.xz: f007d6c699901ec64000e6a9cb2a803ba72091f6
+  TORCS-1.3.6-data-tracks-road.tar.xz: c84966bb59743f5c03ab72c951cbd8dc8bb2baaf
+  TORCS-1.3.6-data.tar.xz: 8f57241bb4cbd8038cbb21044ba7afa69be3952a

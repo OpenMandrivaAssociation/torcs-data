@@ -2,8 +2,8 @@
 %define	opname	TORCS
 %define	name	%{pname}-data
 %define	oname	%{opname}-data
-%define	version	1.3.5
-%define release	2
+%define	version	1.3.6
+%define release	1
 %define	Summary	Data files for %{pname}
 
 Name:		%{name}

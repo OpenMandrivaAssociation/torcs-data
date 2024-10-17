@@ -23,7 +23,7 @@ Source7:	%{opname}-%{version}-data-cars-kcendra-gt.tar.xz
 Source8:	%{opname}-%{version}-data-cars-kcendra-roadsters.tar.xz
 Source9:	%{opname}-%{version}-data-cars-kcendra-sport.tar.xz
 Source10:	%{opname}-1.3.0-data-cars-VM.tar.bz2
-Url:		http://torcs.org/
+Url:		https://torcs.org/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 Requires:	%{pname} = %{version}
